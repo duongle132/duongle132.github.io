@@ -35,7 +35,7 @@ h1 {
 
 h2 {
 	font-family:Tahoma, Geneva, sans-serif;
-	color:#89D7E9;
+	color:#48E9D0;;
 	alignment-adjust:central; 
 }
 
@@ -48,7 +48,11 @@ h3 {
 p {
 	margin-top: 0;
 }
-
+	
+p ::first-letter {
+	font-size: 200%;
+}
+		
 p.fancy::first-line {
 	color: darkOliveGreen;
 	font-weight: 100;
