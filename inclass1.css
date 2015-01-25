@@ -1,0 +1,102 @@
+@charset "UTF-8";
+/* CSS Document */
+
+body {
+	margin: 0;
+	padding: 0;
+	color: #34312C;
+	background-color: #D4F4E8;
+	font-family:  tahoma Tahoma, Geneva, sans-serif, Arial, Helvetica, sans-serif;
+	line-height: 138%;
+	font-size: 1.3em;
+}
+
+.container {
+	width: 620px;
+	background-color: white;
+	padding: 30px 100px 50px 100px;
+	margin: 40px auto;
+	box-shadow: 3px 3px 10px hsla(37,55%,26%,0.41);	
+}
+
+h1, h2, h3 {
+	margin-bottom: 7px;
+}
+
+h1 {
+	color: #2DB0ED;
+	text-transform: uppercase;
+	letter-spacing: 110%;
+	font-family:Tahoma, Geneva, sans-serif;
+	alignment-adjust:central;
+	line-spacing: 120%;
+	font-size: 32px;
+}
+
+h2 {
+	font-family:Tahoma, Geneva, sans-serif;
+	color:#48E9D0;;
+	alignment-adjust:central; 
+}
+
+h3 {
+	font-family:Tahoma, Geneva, sans-serif;
+	color:#89D7E9;
+	alignment-adjust:central; 
+}
+
+p {
+	margin-top: 0;
+}
+	
+p ::first-letter {
+	font-size: 200%;
+}
+		
+p.fancy::first-line {
+	color: darkOliveGreen;
+	font-weight: 100;
+}
+
+}
+
+ul {
+	padding: 0;
+	line-height: 138%;
+	list-style-type: square;
+	list-style-position:inside;
+}
+	
+li {
+	color: hsla(98,33%,56%,1.00);
+}
+
+li p {
+	color: #34312C;
+}
+
+a:link, a:visited {
+	color: hsla(182,91%,31%,1.00);
+	text-decoration: none;
+}
+
+a:hover {
+	background-color: hsla(216,95%,44%,1.00);
+	color: hsla(194,50%,80%,1.00);
+}
+
+a:active {
+	background-color: blue;
+	color: white;
+}/* CSS Document */
+
+.internal {
+	width: 300px; 
+	background color: navy;
+	padding: 10px; 
+	float: left;
+	margin: 10px;
+	border: solid 4px black;
+
+}
+
