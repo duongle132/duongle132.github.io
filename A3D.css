@@ -1,0 +1,249 @@
+body {
+	margin: 0;
+	padding: 0;
+	color: #34312C;
+	background-color: #D4F4E8;
+	font-family:  tahoma Tahoma, Geneva, sans-serif, Arial, Helvetica, sans-serif;
+	line-height: 138%;
+	font-size: 24px;
+}
+
+.container {
+	width: 620px;
+	height: 900px;
+	background-color: white;
+	padding: 30px 100px 50px 100px;
+	margin: 40px auto;
+	box-shadow: 3px 3px 10px hsla(37,55%,26%,0.41);	
+	font-family: Tahoma, Geneva, sans-serif, Arial, Helvetica, sans-serif;
+}
+
+.name {
+	background-color: white;
+	font-family: Tahoma, Geneva, sans-serif, Arial, Helvetica, sans-serif;
+	border: solid 1px black;
+
+}
+
+h1 {
+	color: #184F9D;
+	text-transform: uppercase;
+	letter-spacing: 110%;
+	font-family: Tahoma, Geneva, sans-serif;
+	line-spacing: 120%;
+	font-size: 32px;
+}
+
+h2 {
+	font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+	color: #48E9D0;
+	font-size: 34px;
+}
+
+ul {
+	padding: 0;
+	line-height: 138%;
+	list-style-type: square;
+	list-style-position:inside;
+}
+	
+li {
+	color: #1180D8;
+	font-size: 24px;
+}
+
+body {
+	background-color: #FFFFFF;
+}
+body {
+	margin: 0;
+	padding: 0;
+	color: #34312C;
+	background-color: #D4F4E8;
+	font-family:  tahoma Tahoma, Geneva, sans-serif, Arial, Helvetica, sans-serif;
+	line-height: 138%;
+	font-size: 24px;
+}
+
+
+#outer-wrap {
+	margin: 30px 20px 150px 40px;
+}
+
+.clear {
+	clear: both;
+}
+
+#div1, #div2, #div3, #div4, #div5, #div6, #div7, #div8, #div9, #div10, #div11, #div12, #div13
+{	padding: 5px;
+	width: 5px;
+	height: 5px;
+	border: solid 2px black;
+	float: left;
+	margin-left: 50px;
+}
+
+#div1 {
+	background: black;
+	margin-top: 35px;
+	padding: 40px;
+	z-index: 10;
+}
+
+#div2 {
+	margin-top: 35px;
+	margin: 60px 0 0 -100px;
+	transform: rotate(-23deg);
+	padding: 60px;	
+	transition-property: all;
+	transition-duration: 1.5s;
+}
+
+#div2:hover {
+	margin-top:120px;
+}
+
+#div3 {
+	margin: 30px 0 0 -100px;
+	transform: rotate(-60deg);
+	padding: 60px;
+	transition-property: all;
+	transition-duration: 1.5s;
+}
+
+#div3:hover {
+	margin-top:140px;
+}
+
+#div4 {
+	margin: 50px 0 0 -100px;
+	transform: rotate(-72deg);
+	padding: 60px;	
+	transition-property: all;
+	transition-duration: 1.5s;
+}
+
+#div4:hover {
+	margin-top:140px;
+}
+
+#div5 {
+	margin: 50px 0 0 -100px;
+	transform: rotate(-50deg);
+	padding: 20px;
+	margin-left:50px;
+	padding: 8px;	
+	transition-property: all;
+	transition-duration: 1.5s;
+}
+
+#div5:hover {
+	margin-top:95px;
+}
+
+#div6 {
+	margin: 50px 10 30 -100px;
+	transform: rotate(-44deg);
+	padding: 30px;
+	margin-left:50px;
+	padding: 40px;	
+	transition-property: all;
+	transition-duration: 1.5s;
+}
+
+#div6:hover {
+	margin-top:78px;
+}
+
+#div7 {
+	margin: 60px 0 0 -100px;
+	transform: rotate(-76deg);
+	padding: 25px;	
+	margin-left:52px;
+	transition-property: all;
+	transition-duration: 1.5s;
+}
+
+#div7:hover {
+	margin-top:105px;
+}
+
+#div8 {
+	margin-top: 35px;
+	margin: 60px 0 0 -100px;
+	transform: rotate(-66deg);
+	padding: 60px;	
+	margin-left:55px;
+	transition-property: all;
+	transition-duration: 1.5s;
+	transition-property: all;
+	transition-duration: 1.5s;
+}
+#div8:hover {
+	margin-top:105px;
+}
+
+#div9 {
+	margin: 60px 0 0 -100px;
+	transform: rotate(-30deg);
+	padding: 45px;
+	margin-left:60px;
+	transition-property: all;
+	transition-duration: 1.5s;
+	transition-property: all;
+	transition-duration: 1.5s;
+}
+
+#div9:hover {
+	margin-top:115px;
+}
+#div10 {
+	width: 50px;
+	height: 50px;
+	margin: 30px 0 0 -100px;
+	transform: rotate(-55deg);
+	padding: 35px;
+	margin-left:45px;
+	transition-property: all;
+	transition-duration: 1.5s;
+}
+#div10:hover {
+	margin-top:105px;
+}
+
+#div11 {
+	margin: 50px 10 30 -100px;
+	transform: rotate(-40deg);
+	margin-left:70px;
+	padding: 40px;	
+	transition-property: all;
+	transition-duration: 1.5s;
+}
+#div11:hover {
+	margin-top:105px;
+}
+
+#div12 {
+	margin: 20px 10 30 -100px;
+	transform: rotate(-70deg);
+	margin-left:70px;
+	padding: 40px;	
+	transition-property: all;
+	transition-duration: 1.5s;
+}
+#div12:hover {
+	margin-top:105px;
+}
+
+#div13 {
+	margin: 30px 0 0 -100px;
+	transform: rotate(-55deg);
+	margin-left:10px;
+	padding: 30px;
+	transition-property: all;
+	transition-duration: 1.5s;
+}
+
+#div13:hover {
+	margin-top:105px;
+}
