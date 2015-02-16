@@ -99,9 +99,6 @@ body {
 	transition-duration: 1.5s;
 }
 
-#div2:hover {
-	margin-top:120px;
-}
 
 #div3 {
 	margin: 30px 0 0 -100px;
@@ -111,9 +108,6 @@ body {
 	transition-duration: 1.5s;
 }
 
-#div3:hover {
-	margin-top:140px;
-}
 
 #div4 {
 	margin: 50px 0 0 -100px;
@@ -123,22 +117,15 @@ body {
 	transition-duration: 1.5s;
 }
 
-#div4:hover {
-	margin-top:140px;
-}
 
 #div5 {
-	margin: 50px 0 0 -100px;
+	margin: 60px 10 0 -100px;
 	transform: rotate(-50deg);
-	padding: 20px;
+	padding: 40px;
 	margin-left:50px;
 	padding: 8px;	
 	transition-property: all;
 	transition-duration: 1.5s;
-}
-
-#div5:hover {
-	margin-top:95px;
 }
 
 #div6 {
@@ -151,9 +138,6 @@ body {
 	transition-duration: 1.5s;
 }
 
-#div6:hover {
-	margin-top:78px;
-}
 
 #div7 {
 	margin: 60px 0 0 -100px;
@@ -164,9 +148,6 @@ body {
 	transition-duration: 1.5s;
 }
 
-#div7:hover {
-	margin-top:105px;
-}
 
 #div8 {
 	margin-top: 35px;
@@ -179,14 +160,11 @@ body {
 	transition-property: all;
 	transition-duration: 1.5s;
 }
-#div8:hover {
-	margin-top:105px;
-}
 
 #div9 {
 	margin: 60px 0 0 -100px;
 	transform: rotate(-30deg);
-	padding: 45px;
+	padding: 50px;
 	margin-left:60px;
 	transition-property: all;
 	transition-duration: 1.5s;
@@ -194,21 +172,14 @@ body {
 	transition-duration: 1.5s;
 }
 
-#div9:hover {
-	margin-top:115px;
-}
 #div10 {
 	width: 50px;
 	height: 50px;
-	margin: 30px 0 0 -100px;
+	margin: 55px 20 0 -100px;
 	transform: rotate(-55deg);
-	padding: 35px;
-	margin-left:45px;
+	padding: 55px;
 	transition-property: all;
 	transition-duration: 1.5s;
-}
-#div10:hover {
-	margin-top:105px;
 }
 
 #div11 {
@@ -219,9 +190,6 @@ body {
 	transition-property: all;
 	transition-duration: 1.5s;
 }
-#div11:hover {
-	margin-top:105px;
-}
 
 #div12 {
 	margin: 20px 10 30 -100px;
@@ -231,19 +199,38 @@ body {
 	transition-property: all;
 	transition-duration: 1.5s;
 }
-#div12:hover {
-	margin-top:105px;
-}
+
 
 #div13 {
-	margin: 30px 0 0 -100px;
-	transform: rotate(-55deg);
-	margin-left:10px;
-	padding: 30px;
+	margin: 75px 60 20 -100px;
+	transform: rotate(-105deg);
+	padding: 75px;
 	transition-property: all;
 	transition-duration: 1.5s;
 }
 
-#div13:hover {
-	margin-top:105px;
+
+a:link, a:visited {
+	color: hsla(182,91%,31%,1.00);
+	text-decoration: none;
+}
+
+p ::first-letter {
+	font-size: 200%;
+}
+
+a:link {
+    text-decoration: none;
+}
+
+a:visited {
+    color: purple;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+a:active {
+    text-decoration: underline;
 }

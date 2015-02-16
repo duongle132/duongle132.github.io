@@ -1,0 +1,345 @@
+body {
+	margin: 0;
+	padding: 0;
+	color: #34312C;
+	background-color: #D4F4E8;
+	font-family:  tahoma Tahoma, Geneva, sans-serif, Arial, Helvetica, sans-serif;
+	line-height: 138%;
+	font-size: 24px;
+}
+
+.container 
+{
+	width: 620px;
+	height: 900px;
+	background-color: white;
+	padding: 30px 100px 50px 100px;
+	margin: 40px auto;
+	box-shadow: 3px 3px 10px hsla(37,55%,26%,0.41);	
+	font-family: Tahoma, Geneva, sans-serif, Arial, Helvetica, sans-serif;
+}
+
+.name {
+	background-color: white;
+	font-family: Tahoma, Geneva, sans-serif, Arial, Helvetica, sans-serif;
+	border: solid 1px black;
+
+}
+
+h1 {
+	color: #184F9D;
+	text-transform: uppercase;
+	letter-spacing: 110%;
+	font-family: Tahoma, Geneva, sans-serif;
+	line-spacing: 120%;
+	font-size: 32px;
+}
+
+h2 {
+	font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+	color: #48E9D0;
+	font-size: 34px;
+}
+
+ul {
+	padding: 0;
+	line-height: 138%;
+	list-style-type: square;
+	list-style-position:inside;
+}
+	
+li {
+	color: #1180D8;
+	font-size: 24px;
+}
+
+
+.background {
+width: 600px;
+height:600px;
+background: #000;
+}
+
+
+#hover-box {
+    width: 60px;
+    height: 15px;
+    color: white;
+    background-color: grey;
+}
+
+#div1 {
+	width: 10px;
+	padding: 5px 0;
+	border-radius: 15px;
+	position: absolute;
+	margin-top: 500px;
+	margin-left:300px; 
+	border: solid 5px hsla(350,94%,50%,1.00);
+	background-color: #CF0;
+	float: left;
+	transition-property: all;
+	transition-duration: 3s;
+}
+
+#hover-box:hover + .hover-wrap > #div1 {
+	background-color: hsla(233,88%,28%,0.26);
+	border-color: hsla(56,95%,45%,0.22);
+	margin-top: 100px;
+	margin-left:180px; 
+	box-shadow: 
+    0 0 0 20px #CCCC00,
+    0 0 0 25px  #CC9900,
+    0 0 0 30px  #CC6600,
+    0 0 0 35px  #CC3300,
+    0 0 0 40px  #CC0000;	
+}
+
+#div9 {
+	width: 10px;
+	padding: 5px 0;
+	border-radius: 15px;
+	position: absolute;
+	margin-top: 500px;
+	margin-left:300px; 
+	border: solid 5px hsla(350,94%,50%,1.00);
+	background-color: #CF0;
+	float: left;
+	transition-property: all;
+	transition-duration: 2s;
+}
+
+#hover-box:hover + .hover-wrap > #div9 {
+	background-color: hsla(233,88%,28%,0.26);
+	border-color: hsla(56,95%,45%,0.22);
+	margin-top: 100px;
+	margin-left:300px; 
+	box-shadow: 
+    0 0 0 20px #CCCC00,
+    0 0 0 25px  #CC9900,
+    0 0 0 30px  #CC6600,
+    0 0 0 35px  #CC3300,
+    0 0 0 40px  #CC0000;	
+}
+
+#div2 {
+	width: 10px;
+	padding: 5px 0;
+	border-radius: 15px;
+	position: absolute;
+	margin-top: 500px;
+	margin-left:300px; 
+	border: solid 5px hsla(350,94%,50%,1.00);
+	background-color: #CF0;
+	float: left;
+	transition-property: all;
+	transition-duration: 2s;
+}
+
+#hover-box:hover + .hover-wrap > #div2 {
+	background-color: hsla(233,88%,28%,0.26);
+	border-color: hsla(56,95%,45%,0.22);
+	margin-top: 100px;
+	margin-left:400px; 
+	box-shadow: 
+    0 0 0 20px #CCCC00,
+    0 0 0 25px  #CC9900,
+    0 0 0 30px  #CC6600,
+    0 0 0 35px  #CC3300,
+    0 0 0 40px  #CC0000;	
+}
+
+
+#div3 {
+	width: 10px;
+	padding: 5px 0;
+	border-radius: 15px;
+	position: absolute;
+	margin-top: 500px;
+	margin-left:300px; 
+	border: solid 5px hsla(350,94%,50%,1.00);
+	background-color: #CF0;
+	float: left;
+	transition-property: all;
+	transition-duration: 2.5s;
+}
+
+#hover-box:hover + .hover-wrap > #div3 
+{	background-color: hsla(233,88%,28%,0.26);
+	border-color: hsla(56,95%,45%,0.22);
+	margin-top: 300px;
+	margin-left:350px; 
+	box-shadow: 
+    0 0 0 20px #CCCC00,
+    0 0 0 25px  #CC9900,
+    0 0 0 30px  #CC6600,
+    0 0 0 35px  #CC3300,
+    0 0 0 40px  #CC0000;
+}
+
+
+#div4 {
+	width: 10px;
+	padding: 5px 0;
+	border-radius: 15px;
+	position: absolute;
+	margin-top: 500px;
+	margin-left:300px; 
+	border: solid 5px hsla(350,94%,50%,1.00);
+	background-color: #CF0;
+	float: left;
+	transition-property: all;
+	transition-duration: 2.5s;
+}
+
+#hover-box:hover + .hover-wrap > #div4 {
+	background-color: hsla(233,88%,28%,0.26);
+	border-color: hsla(56,95%,45%,0.22);
+	margin-top: 200px;
+	margin-left:340px; 
+	box-shadow: 
+    0 0 0 20px #CCCC00,
+    0 0 0 25px  #CC9900,
+    0 0 0 30px  #CC6600,
+    0 0 0 35px  #CC3300,
+    0 0 0 40px  #CC0000;
+}
+
+
+#div8 {
+	width: 10px;
+	padding: 5px 0;
+	border-radius: 15px;
+	position: absolute;
+	margin-top: 500px;
+	margin-left:300px; 
+	border: solid 5px hsla(350,94%,50%,1.00);
+	background-color: #CF0;
+	float: left;
+	transition-property: all;
+	transition-duration: 3s;
+}
+
+#hover-box:hover + .hover-wrap > #div8 {
+	background-color: hsla(233,88%,28%,0.26);
+	border-color: hsla(56,95%,45%,0.22);
+	margin-top: 200px;
+	margin-left:450px; 
+	box-shadow: 
+    0 0 0 20px #CCCC00,
+    0 0 0 25px  #CC9900,
+    0 0 0 30px  #CC6600,
+    0 0 0 35px  #CC3300,
+    0 0 0 40px  #CC0000;
+}
+
+
+#div5 {
+	width: 10px;
+	padding: 5px 0;
+	border-radius: 15px;
+	position: absolute;
+	margin-top: 500px;
+	margin-left:300px; 
+	border: solid 5px hsla(350,94%,50%,1.00);
+	background-color: #CF0;
+	float: left;
+	transition-property: all;
+	transition-duration: 2.5s;
+}
+
+#hover-box:hover + .hover-wrap > #div5 {
+	background-color: hsla(233,88%,28%,0.26);
+	border-color: hsla(56,95%,45%,0.22);
+	margin-top: 200px;
+	margin-left:240px; 
+	box-shadow: 
+    0 0 0 20px #CCCC00,
+    0 0 0 25px  #CC9900,
+    0 0 0 30px  #CC6600,
+    0 0 0 35px  #CC3300,
+    0 0 0 40px  #CC0000;
+}
+
+
+#div6 {
+	width: 10px;
+	padding: 5px 0;
+	border-radius: 15px;
+	position: absolute;
+	margin-top: 500px;
+	margin-left:300px; 
+	border: solid 5px hsla(350,94%,50%,1.00);
+	background-color: #CF0;
+	float: left;
+	transition-property: all;
+	transition-duration: 3s;
+}
+
+#hover-box:hover + .hover-wrap > #div6 {
+	background-color: hsla(233,88%,28%,0.26);
+	border-color: hsla(56,95%,45%,0.22);
+	margin-top: 300px;
+	margin-left:180px; 
+	box-shadow: 
+    0 0 0 20px #CCCC00,
+    0 0 0 25px  #CC9900,
+    0 0 0 30px  #CC6600,
+    0 0 0 35px  #CC3300,
+    0 0 0 40px  #CC0000;
+}
+
+
+#div7 {
+	width: 10px;
+	padding: 5px 0;
+	border-radius: 15px;
+	position: absolute;
+	margin-top: 500px;
+	margin-left:300px; 
+	border: solid 5px hsla(350,94%,50%,1.00);
+	background-color: #CF0;
+	float: left;
+	transition-property: all;
+	transition-duration: 2s;
+}
+
+
+
+#hover-box:hover + .hover-wrap > #div7 {
+	background-color: hsla(233,88%,28%,0.26);
+	border-color: hsla(56,95%,45%,0.22);
+	margin-top: 200px;
+	margin-left:140px; 
+	box-shadow: 
+    0 0 0 20px #CCCC00,
+    0 0 0 25px  #CC9900,
+    0 0 0 30px  #CC6600,
+    0 0 0 35px  #CC3300,
+    0 0 0 40px  #CC0000;
+}
+
+a:link, a:visited {
+	color: hsla(182,91%,31%,1.00);
+	text-decoration: none;
+}
+
+p ::first-letter {
+	font-size: 200%;
+}
+
+a:link {
+    text-decoration: none;
+}
+
+a:visited {
+    color: purple;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+a:active {
+    text-decoration: underline;
+}

@@ -98,3 +98,28 @@ li {
 .clear {
 	clear: both;
 }
+
+a:link, a:visited {
+	color: hsla(182,91%,31%,1.00);
+	text-decoration: none;
+}
+
+p ::first-letter {
+	font-size: 200%;
+}
+
+a:link {
+    text-decoration: none;
+}
+
+a:visited {
+    color: purple;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+a:active {
+    text-decoration: underline;
+}
