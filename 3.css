@@ -14,6 +14,9 @@ h1 {
 	text-align: center;
 }
 
+h2 {
+	text-align:center;
+}
 .container {
   width: 720px; 
   height: 480px;
@@ -27,7 +30,23 @@ h1 {
   background-color: #FFF;
   margin: auto;
   margin-top: 10px;
- 
+ }
+.ava1{
+  width: 320px; 
+  height: 480px; 
+  border: thin; 
+  border:#000; 
+  margin-right:10px; 
+  float:left;
+}
+
+.ava2{
+  width: 350px; 
+  height: 480px; 
+  border: thin; 
+  border:#000; 
+  margin: auto;
+  float: right;
 }
 
 .footer {

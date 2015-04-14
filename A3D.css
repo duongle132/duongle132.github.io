@@ -1,71 +1,9 @@
-body {
-	margin: 0;
-	padding: 0;
-	color: #34312C;
-	background-color: #D4F4E8;
-	font-family:  tahoma Tahoma, Geneva, sans-serif, Arial, Helvetica, sans-serif;
-	line-height: 138%;
-	font-size: 24px;
-}
-
-.container {
-	width: 620px;
-	height: 900px;
-	background-color: white;
-	padding: 30px 100px 50px 100px;
-	margin: 40px auto;
-	box-shadow: 3px 3px 10px hsla(37,55%,26%,0.41);	
-	font-family: Tahoma, Geneva, sans-serif, Arial, Helvetica, sans-serif;
-}
-
-.name {
-	background-color: white;
-	font-family: Tahoma, Geneva, sans-serif, Arial, Helvetica, sans-serif;
-	border: solid 1px black;
+.background {
+	height: 480px;
+	width: 500px;
+	background-color:#FFF;
 
 }
-
-h1 {
-	color: #184F9D;
-	text-transform: uppercase;
-	letter-spacing: 110%;
-	font-family: Tahoma, Geneva, sans-serif;
-	line-spacing: 120%;
-	font-size: 32px;
-}
-
-h2 {
-	font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
-	color: #48E9D0;
-	font-size: 34px;
-}
-
-ul {
-	padding: 0;
-	line-height: 138%;
-	list-style-type: square;
-	list-style-position:inside;
-}
-	
-li {
-	color: #1180D8;
-	font-size: 24px;
-}
-
-body {
-	background-color: #FFFFFF;
-}
-body {
-	margin: 0;
-	padding: 0;
-	color: #34312C;
-	background-color: #D4F4E8;
-	font-family:  tahoma Tahoma, Geneva, sans-serif, Arial, Helvetica, sans-serif;
-	line-height: 138%;
-	font-size: 24px;
-}
-
-
 #outer-wrap {
 	margin: 30px 20px 150px 40px;
 }
@@ -170,67 +108,4 @@ body {
 	transition-duration: 1.5s;
 	transition-property: all;
 	transition-duration: 1.5s;
-}
-
-#div10 {
-	width: 50px;
-	height: 50px;
-	margin: 55px 20 0 -100px;
-	transform: rotate(-55deg);
-	padding: 55px;
-	transition-property: all;
-	transition-duration: 1.5s;
-}
-
-#div11 {
-	margin: 50px 10 30 -100px;
-	transform: rotate(-40deg);
-	margin-left:70px;
-	padding: 40px;	
-	transition-property: all;
-	transition-duration: 1.5s;
-}
-
-#div12 {
-	margin: 20px 10 30 -100px;
-	transform: rotate(-70deg);
-	margin-left:70px;
-	padding: 40px;	
-	transition-property: all;
-	transition-duration: 1.5s;
-}
-
-
-#div13 {
-	margin: 75px 60 20 -100px;
-	transform: rotate(-105deg);
-	padding: 75px;
-	transition-property: all;
-	transition-duration: 1.5s;
-}
-
-
-a:link, a:visited {
-	color: hsla(182,91%,31%,1.00);
-	text-decoration: none;
-}
-
-p ::first-letter {
-	font-size: 200%;
-}
-
-a:link {
-    text-decoration: none;
-}
-
-a:visited {
-    color: purple;
-}
-
-a:hover {
-    text-decoration: underline;
-}
-
-a:active {
-    text-decoration: underline;
 }

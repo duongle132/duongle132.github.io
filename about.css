@@ -1,3 +1,6 @@
+@charset "UTF-8";
+/* CSS Document */
+
 
 /* footer styles */
 body {
@@ -20,6 +23,25 @@ h1 {
   background-color: #FFF;
   margin:auto;
 }
+
+.ava1{
+  width: 320px; 
+  height: 480px; 
+  border: thin; 
+  border:#000; 
+  margin-right:10px; 
+  float:left;
+}
+
+.ava2{
+  width: 350px; 
+  height: 480px; 
+  border: thin; 
+  border:#000; 
+  margin: auto;
+  float: right;
+}
+
 
 .container2 {
   width: 100px; 
