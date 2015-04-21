@@ -1,6 +1,6 @@
 .background {
-width: 500px;
-height:480px;
+width: 400px;
+height:400px;
 background: #000;
 }
 
@@ -13,12 +13,12 @@ background: #000;
 }
 
 #div1 {
-	width: 10px;
-	padding: 5px 0;
-	border-radius: 15px;
+	width: 7px;
+	padding: 3px 0;
+	border-radius: 20px;
 	position: absolute;
-	margin-top: 400px;
-	margin-left:250px; 
+	margin-top: 340px;
+	margin-left: 200px; 
 	border: solid 5px hsla(350,94%,50%,1.00);
 	background-color: #CF0;
 	float: left;
@@ -29,25 +29,25 @@ background: #000;
 #hover-box:hover + .hover-wrap > #div1 {
 	background-color: hsla(233,88%,28%,0.26);
 	border-color: hsla(56,95%,45%,0.22);
-	margin-top: 150px;
-	margin-left:80px; 
+	margin-top: 50px;
+	margin-left:130px; 
 	box-shadow: 
-    0 0 0 20px #CCCC00,
-    0 0 0 25px  #CC9900,
-    0 0 0 30px  #CC6600,
-    0 0 0 35px  #CC3300,
-    0 0 0 40px  #CC0000;	
+    0 0 0 10px #CCCC00,
+    0 0 0 14px  #CC9900,
+    0 0 0 20px  #CC6600,
+    0 0 0 22px  #CC3300,
+    0 0 0 25px  #CC0000;	
 }
 
 #div9 {
-	width: 10px;
-	padding: 5px 0;
-	border-radius: 15px;
+	width: 7px;
+	padding: 3px 0;
+	border-radius: 20px;
 	position: absolute;
-	margin-top: 400px;
-	margin-left:250px; 
-	border: solid 5px hsla(350,94%,50%,1.00);
-	background-color: #CF0;
+	margin-top: 340px;
+	margin-left: 200px; 
+	border: solid 5px  #00CCFF;
+	background-color: #06F;
 	float: left;
 	transition-property: all;
 	transition-duration: 2s;
@@ -59,20 +59,20 @@ background: #000;
 	margin-top: 100px;
 	margin-left:300px; 
 	box-shadow: 
-    0 0 0 20px #CCCC00,
-    0 0 0 25px  #CC9900,
-    0 0 0 30px  #CC6600,
-    0 0 0 35px  #CC3300,
-    0 0 0 40px  #CC0000;	
+    0 0 0 10px  #00FFFF,
+    0 0 0 17px   #00CCFF,
+    0 0 0 20px   #0099FF,
+    0 0 0 24px   #0066FF,
+    0 0 0 27px   #0066FF;	
 }
 
 #div2 {
-	width: 10px;
-	padding: 5px 0;
-	border-radius: 15px;
+	width: 7px;
+	padding: 3px 0;
+	border-radius: 20px;
 	position: absolute;
-	margin-top: 400px;
-	margin-left:250px; 
+	margin-top: 340px;
+	margin-left: 200px; 
 	border: solid 5px hsla(350,94%,50%,1.00);
 	background-color: #CF0;
 	float: left;
@@ -83,24 +83,24 @@ background: #000;
 #hover-box:hover + .hover-wrap > #div2 {
 	background-color: hsla(233,88%,28%,0.26);
 	border-color: hsla(56,95%,45%,0.22);
-	margin-top: 100px;
-	margin-left:400px; 
+	margin-top: 150px;
+	margin-left:130px; 
 	box-shadow: 
-    0 0 0 20px #CCCC00,
-    0 0 0 25px  #CC9900,
-    0 0 0 30px  #CC6600,
-    0 0 0 35px  #CC3300,
-    0 0 0 40px  #CC0000;	
+    0 0 0 10px  #FFCCFF,
+    0 0 0 15px  #FFCCFF,
+    0 0 0 20px  #FF99FF,
+    0 0 0 25px   #FF66FF,
+    0 0 0 30px   #FF33FF;	
 }
 
 
 #div3 {
-	width: 10px;
-	padding: 5px 0;
-	border-radius: 15px;
+	width: 7px;
+	padding: 3px 0;
+	border-radius: 20px;
 	position: absolute;
-	margin-top: 400px;
-	margin-left:250px; 
+	margin-top: 340px;
+	margin-left: 200px; 
 	border: solid 5px hsla(350,94%,50%,1.00);
 	background-color: #CF0;
 	float: left;
@@ -109,16 +109,16 @@ background: #000;
 }
 
 #hover-box:hover + .hover-wrap > #div3 
-{	background-color: hsla(233,88%,28%,0.26);
-	border-color: hsla(56,95%,45%,0.22);
-	margin-top: 300px;
-	margin-left:350px; 
+{	background-color: #096;
+	border-color: #0C9;
+	margin-top: 130px;
+	margin-left:250px; 
 	box-shadow: 
-    0 0 0 20px #CCCC00,
-    0 0 0 25px  #CC9900,
-    0 0 0 30px  #CC6600,
-    0 0 0 35px  #CC3300,
-    0 0 0 40px  #CC0000;
+    0 0 0 20px  #00FFFF,
+    0 0 0 25px    #00CC99,
+    0 0 0 30px    #009966,
+    0 0 0 35px   #00FF33,
+    0 0 0 40px   #006600;
 }
 
 
@@ -127,8 +127,8 @@ background: #000;
 	padding: 5px 0;
 	border-radius: 15px;
 	position: absolute;
-	margin-top: 400px;
-	margin-left:250px; 
+	margin-top: 340px;
+	margin-left: 200px; 
 	border: solid 5px hsla(350,94%,50%,1.00);
 	background-color: #CF0;
 	float: left;
@@ -137,16 +137,16 @@ background: #000;
 }
 
 #hover-box:hover + .hover-wrap > #div4 {
-	background-color: hsla(233,88%,28%,0.26);
-	border-color: hsla(56,95%,45%,0.22);
-	margin-top: 200px;
-	margin-left:340px; 
+	background-color: #F96;
+	border-color: #F90;
+	margin-top: 170px;
+	margin-left:230px; 
 	box-shadow: 
-    0 0 0 20px #CCCC00,
-    0 0 0 25px  #CC9900,
-    0 0 0 30px  #CC6600,
-    0 0 0 35px  #CC3300,
-    0 0 0 40px  #CC0000;
+    0 0 0 10px  #FF99FF,
+    0 0 0 13px   #FF9999,
+    0 0 0 17px   #FF9966,
+    0 0 0 20px   #FF9999,
+    0 0 0 24px  #FF6600;
 }
 
 
@@ -155,8 +155,8 @@ background: #000;
 	padding: 5px 0;
 	border-radius: 15px;
 	position: absolute;
-	margin-top: 400px;
-	margin-left:250px; 
+	margin-top: 340px;
+	margin-left: 200px; 
 	border: solid 5px hsla(350,94%,50%,1.00);
 	background-color: #CF0;
 	float: left;
@@ -168,13 +168,13 @@ background: #000;
 	background-color: hsla(233,88%,28%,0.26);
 	border-color: hsla(56,95%,45%,0.22);
 	margin-top: 200px;
-	margin-left:400px; 
+	margin-left:290px; 
 	box-shadow: 
-    0 0 0 20px #CCCC00,
-    0 0 0 25px  #CC9900,
-    0 0 0 30px  #CC6600,
-    0 0 0 35px  #CC3300,
-    0 0 0 40px  #CC0000;
+    0 0 0 10px  #66FFFF,
+    0 0 0 14px   #6699FF,
+    0 0 0 19px   #6666FF,
+    0 0 0 23px   #6633FF,
+    0 0 0 27px   #6600CC;
 }
 
 
@@ -183,8 +183,8 @@ background: #000;
 	padding: 5px 0;
 	border-radius: 15px;
 	position: absolute;
-	margin-top: 400px;
-	margin-left:250px; 
+	margin-top: 340px;
+	margin-left: 200px; 
 	border: solid 5px hsla(350,94%,50%,1.00);
 	background-color: #CF0;
 	float: left;
@@ -195,14 +195,14 @@ background: #000;
 #hover-box:hover + .hover-wrap > #div5 {
 	background-color: hsla(233,88%,28%,0.26);
 	border-color: hsla(56,95%,45%,0.22);
-	margin-top: 200px;
-	margin-left:240px; 
+	margin-top: 230px;
+	margin-left:70px; 
 	box-shadow: 
-    0 0 0 20px #CCCC00,
-    0 0 0 25px  #CC9900,
-    0 0 0 30px  #CC6600,
-    0 0 0 35px  #CC3300,
-    0 0 0 40px  #CC0000;
+    0 0 0 20px  #CCFFCC,
+    0 0 0 25px   #CCFF99,
+    0 0 0 30px   #CCFF66,
+    0 0 0 35px   #CCFF33,
+    0 0 0 40px   #FFFF00;
 }
 
 
@@ -211,8 +211,8 @@ background: #000;
 	padding: 5px 0;
 	border-radius: 15px;
 	position: absolute;
-	margin-top: 400px;
-	margin-left:250px; 
+	margin-top: 340px;
+	margin-left: 200px;  
 	border: solid 5px hsla(350,94%,50%,1.00);
 	background-color: #CF0;
 	float: left;
@@ -223,14 +223,14 @@ background: #000;
 #hover-box:hover + .hover-wrap > #div6 {
 	background-color: hsla(233,88%,28%,0.26);
 	border-color: hsla(56,95%,45%,0.22);
-	margin-top: 300px;
+	margin-top: 250px;
 	margin-left:180px; 
 	box-shadow: 
-    0 0 0 20px #CCCC00,
-    0 0 0 25px  #CC9900,
-    0 0 0 30px  #CC6600,
-    0 0 0 35px  #CC3300,
-    0 0 0 40px  #CC0000;
+    0 0 0 13px  #99FF00,
+    0 0 0 16px   #99FF66,
+    0 0 0 19px   #99FFCC,
+    0 0 0 23px   #99FFFF,
+    0 0 0 26px   #9999FF;
 }
 
 
@@ -239,8 +239,8 @@ background: #000;
 	padding: 5px 0;
 	border-radius: 15px;
 	position: absolute;
-	margin-top: 400px;
-	margin-left:250px; 
+	margin-top: 340px;
+	margin-left: 200px; 
 	border: solid 5px hsla(350,94%,50%,1.00);
 	background-color: #CF0;
 	float: left;
